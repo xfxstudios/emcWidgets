@@ -1,0 +1,23 @@
+{
+    "name": "xfxstudios/emcwidgets",
+    "type": "library",
+    "description": "Gestión simple de Archivos Excel",
+    "keywords": ["Widgets", "Php", "Bootstrap","CSS","Material Design"],
+    "homepage": "https://github.com/xfxstudios/emcWidgets",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Quintero",
+            "email": "cquintero@quinterdev.com",
+            "homepage": "https://quinterdev.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xfxstudios\\Widgets\\": "src/"
+        }
+    }
+}
